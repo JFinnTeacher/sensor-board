@@ -1,11 +1,5 @@
 input.onButtonPressed(Button.A, function () {
-    basic.showLeds(`
-        # . . . #
-        . # . # .
-        . . # . .
-        . # . # .
-        # . . . #
-        `)
+    basic.showIcon(IconNames.Heart)
 })
 serial.redirectToUSB()
 basic.forever(function () {
